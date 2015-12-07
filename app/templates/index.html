@@ -1,0 +1,14 @@
+<html>
+	<head>
+		{% if title %}
+		<title>{{ title }} - Portfolio Manager</title>
+		{% else %}
+		<title>Porfolio Manager</title>
+		{% endif %}
+	</head>
+	<body>
+		<h1>Hi, {{ user.nickname }}, Welcome to Portfolio Manager</h1>
+		{% for position in portfolio %}
+		<div><p>{{ position}}
+	</body>
+</html>
